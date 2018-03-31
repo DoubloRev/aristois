@@ -158,6 +158,7 @@ struct ModelRenderInfo_t
 	Vector origin;
 	Vector angles;
 	void *pRenderable;
+	char pad[0x4];
 	const void *pModel;
 	const matrix3x4 *pModelToWorld;
 	const matrix3x4 *pLightingOffset;
